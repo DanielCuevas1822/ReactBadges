@@ -12,7 +12,7 @@ import api from "../api";
 class Badges extends React.Component {
   constructor(props) {
     super(props);
-    console.log("1. constructor()");
+    // console.log("1. constructor()");
 
     this.state = {
       data: [],
@@ -22,7 +22,7 @@ class Badges extends React.Component {
   }
 
   componentDidMount() {
-    console.log("3. componentDidMount()");
+    //console.log("3. componentDidMount()");
     this.fetchData();
   }
 
@@ -39,25 +39,25 @@ class Badges extends React.Component {
     }
   };
 
-  componentDidUpdate(prevProps, prevState) {
-    console.log("5. componentDidUpdate()");
-    console.log({
-      prevProps: prevProps,
-      prevState: prevState,
-    });
+  // componentDidUpdate(prevProps, prevState) {
+  //console.log("5. componentDidUpdate()");
+  //console.log({
+  // prevProps: prevProps,
+  // prevState: prevState,
+  // });
 
-    console.log({
-      props: this.props,
-      state: this.state,
-    });
-  }
+  //console.log({
+  // props: this.props,
+  // state: this.state,
+  // });
+  // }
 
   componentWillUnmount() {
-    console.log("6. componentWillUnmount");
+    //console.log("6. componentWillUnmount");
   }
 
   render() {
-    console.log("2/4. render()");
+    //console.log("2/4. render()");
     if (this.state.loading) {
       return <PageLoading />;
     }

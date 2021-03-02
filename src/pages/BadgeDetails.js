@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 
 import "./styles/BadgeDetails.css";
 import conflogo from "../images/platziconf-logo.svg";
