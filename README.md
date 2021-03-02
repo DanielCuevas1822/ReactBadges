@@ -1,2 +1,6 @@
 # ReactBadges
-URL: https://danielcuevas1822.github.io/ReactBadges/
+
+*React Js
+*React Router
+*Class and Functional components
+*Use hooks (useState, custom Hook)
